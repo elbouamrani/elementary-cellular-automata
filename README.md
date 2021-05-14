@@ -1,24 +1,3 @@
-# cellular-automata-1d
+# Elementary Cellular Automata
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![Elementary Cellular Automata Demo](https://github.com/elbouamrani/elementary-cellular-automata/blob/master/public/cellular-automata-demo.webp?raw=true)
