@@ -1,6 +1,8 @@
 <template>
     <div id="app">
         <div class="action-container">
+            <span>cycle : {{ cycle }}</span>
+            &nbsp;|&nbsp;
             <label>
                 <button @click="reset()">reset</button>
             </label>
@@ -198,6 +200,7 @@ export default {
         reset() {
             this.world = [];
             this.init();
+            this.cycle = 0;
         },
         init() {
             this.seedWorld();
@@ -255,7 +258,6 @@ export default {
         setRuleIndex(ruleIndex) {
             this.ruleIndex = ruleIndex;
             this.reset();
-            this.seed = "random";
             this.running = true;
         },
     },
